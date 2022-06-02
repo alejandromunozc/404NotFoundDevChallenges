@@ -41,7 +41,6 @@
 
   .main--image {
       margin-top: 64px;
-      /* margin-left: 44px; */
       max-width: 287px;
       max-height: auto;
   }
@@ -69,7 +68,6 @@
       line-height: 27px;
       letter-spacing: -0.035em;
       margin-top: 30px;
-      /* margin-left: 23px; */
   }
 
   .main--title {
@@ -80,6 +78,12 @@
       letter-spacing: -0.035em;
       line-height: 71px;
       margin-top: 60px;
-      /* margin-left: 24px; */
-      /* margin-right: 1px; */
+  }
+
+  @media (min-width: 780px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
   }
